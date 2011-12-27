@@ -1,6 +1,6 @@
 %define module	scimath
 %define name	python-%{module}
-%define version	4.0.0
+%define version	4.0.1
 %define release %mkrel 1
 
 Summary:	Enthought Tool Suite - scimath project
@@ -10,10 +10,10 @@ Release:	%{release}
 Source0:	%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
-Url:		http://code.enthought.com/projects/sci_math/
+Url:		https://github.com/enthought/scimath/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Obsoletes:	python-enthought-scimath
-Requires:	python-traits >= 4.0.0
+Requires:	python-traits >= 4.1.0
 Requires:	python-numpy >= 1.1.0
 Requires:	python-scipy >= 0.5.2
 BuildRequires:	python-setuptools >= 0.6c8
