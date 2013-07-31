@@ -5,9 +5,9 @@
 
 Summary:	Enthought Tool Suite - scimath project
 Name:		%{name}
-Version:	%{version}
-Release:	%{release}
-Source0:	https://www.enthought.com/repo/ets/%{module}-%{version}.tar.gz
+Version:	4.1.2
+Release:	1
+Source0:	https://www.enthought.com/repo/ets/scimath-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
 Url:		https://github.com/enthought/scimath/
@@ -46,3 +46,4 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 #-f FILE_LIST
 %doc *.txt *.rst docs/build/html
 %{python_sitearch}/%{module}*
+
