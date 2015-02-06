@@ -1,12 +1,12 @@
 %define module	scimath
 %define name	python-%{module}
 %define version	4.1.0
-%define release %mkrel 1
+%define release 2
 
 Summary:	Enthought Tool Suite - scimath project
 Name:		%{name}
 Version:	4.1.2
-Release:	1
+Release:	2
 Source0:	https://www.enthought.com/repo/ets/scimath-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
